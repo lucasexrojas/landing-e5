@@ -89,14 +89,14 @@ main{
     width: 100%;
 }
 #hero{
-    max-width: 1200px;
+    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 0px;
     width: 90%;
     border-radius: 20px;
-    margin: 40px;
+    /* margin: 40px; */
     gap: 20px;
     flex-wrap: wrap;
 }
