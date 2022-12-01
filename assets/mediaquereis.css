@@ -1,0 +1,14 @@
+@media ( max-width: 1250px){
+   #hero{ 
+    flex-direction: column;
+    gap: 0px;
+   } 
+   .hero-info{
+    align-items: center;
+   }
+   .hero-info a{
+    width: 60%;
+    max-width:none;
+    margin: 60px;
+   }
+}
