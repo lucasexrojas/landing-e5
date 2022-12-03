@@ -1,47 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="./assets/mediaquereis.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/mediaquereis.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Inicio del header -->
     <header>
-		<img src="./assets/img/navbar/logo1.svg" alt="logo" class="logo">
-		<nav class="navbar">
-			<ul class="navbar-list">
-                <li>
-                    <a href="#"><img src="./assets/img/navbar/Home.svg" alt="Home">Home</a>
-                </li>
-				<li>
-                    <a href="#"><img src="./assets/img/navbar/Icon-Cart.png" alt="cart-icon"></a>
-                </li>
-				<li>
-                    <a href="#"><img src="./assets/img/navbar/user.png" alt="user"></a>
-                </li>
-			</ul>
-		</nav>
-	</header>
+      <img src="./assets/img/navbar/logo1.svg" alt="logo" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="#"
+              ><img src="./assets/img/navbar/Home.svg" alt="Home" />Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/img/navbar/Icon-Cart.png" alt="cart-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/img/navbar/user.png" alt="user"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <!-- Contenido de la pagina -->
-		<section id="hero" class="caja">
-			<div class="hero-info">
-				<h1 class="title">Si tenes Zappy,</h1>
-                <h2>tenes Nucba.</h2>
-				<p>Busca lo que quieras y Nucba te quedes sin comida.</p>
-				<a href="#">VER MAS</a>
-			</div>
-			<div class="hero-card">
-				<img src="./assets/img/hero/image 34.png" alt="img-pizza"
-					class="img-pizza2">
-                <img src="./assets/img/hero/pizza 1.png" alt="img-pizza"
-					class="img-pizza1">
-			</div>
-		</section>
+      <!-- Contenido de la pagina -->
+      <!-- Inicio del Hero -->
+      <section id="hero" class="caja">
+        <div class="hero-info">
+          <h1 class="title">Si tenes Zappy,</h1>
+          <h2>tenes Nucba.</h2>
+          <p>Busca lo que quieras y Nucba te quedes sin comida.</p>
+          <a href="#">VER MAS</a>
+        </div>
+        <div class="hero-card">
+          <img
+            src="./assets/img/hero/image 34.png"
+            alt="img-pizza"
+            class="img-pizza2"
+          />
+          <img
+            src="./assets/img/hero/pizza 1.png"
+            alt="img-pizza"
+            class="img-pizza1"
+          />
+        </div>
+      </section>
+      <!-- Inicio most popular -->
+      <section id="mostpopular">
+        <h2>Lo más popular</h2>
+        <div class="mostpopulars-container flex">
+          <!-- Cards most polulars -->
+          <!-- card 1 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/1-LaMrPit.png"
+              alt="La Mr. Pit"
+            />
+            <div class="popular-info flex">
+              <h3>La Mr. Pit</h3>
+              <p>Solo para expertos</p>
+              <div class="popular-price flex">
+                <span>$350</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/2-QJamone.png"
+              alt="¡Q' Jamone!"
+            />
+            <div class="popular-info flex">
+              <h3>¡Q' Jamone!</h3>
+              <p>c/jamón crudo</p>
+              <div class="popular-price flex">
+                <span>$350</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/3-LaCharlyGarcia.png"
+              alt="La Charly Garcia"
+            />
+            <div class="popular-info flex">
+              <h3>La Charly Garcia</h3>
+              <p>¡BASTA!</p>
+              <div class="popular-price flex">
+                <span>$380</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/4-LaMaradona.png"
+              alt="La Maradona"
+            />
+            <div class="popular-info flex">
+              <h3>La Maradona</h3>
+              <p>¡Eterna!</p>
+              <div class="popular-price flex">
+                <span>$350</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/5-Picantovich.png"
+              alt="Picantovich"
+            />
+            <div class="popular-info flex">
+              <h3>Picantovich</h3>
+              <p>Pica 2 veces</p>
+              <div class="popular-price flex">
+                <span>$750</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/6-LaHasbulla.png"
+              alt="La Hasbulla"
+            />
+            <div class="popular-info flex">
+              <h3>La Hasbulla</h3>
+              <p>En honor al 1</p>
+              <div class="popular-price flex">
+                <span>$990</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 7 -->
+          <div class="popular-box flex">
+            <img
+              src="./assets/img/MostPopulars/7-LeoMessi.png"
+              alt="Leo Messi"
+            />
+            <div class="popular-info flex">
+              <h3>Leo Messi</h3>
+              <p>¡De pié señores!</p>
+              <div class="popular-price flex">
+                <span>$10</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 8 -->
+          <div class="popular-box flex">
+            <img src="./assets/img/MostPopulars/8-NickGi.png" alt="Nick Gi" />
+            <div class="popular-info flex">
+              <h3>Nick Gi</h3>
+              <p>La que desaparece</p>
+              <div class="popular-price flex">
+                <span>$Gratis</span>
+                <button class="popular-btnadd">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
