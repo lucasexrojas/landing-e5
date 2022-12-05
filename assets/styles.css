@@ -22,6 +22,7 @@
   /* PALETA NUCBAZAPPI */
   --bg-primary: #252525;
   --bg-shadow: #01020780;
+  --bg-nzappi: #191919;
   --btn-1: #ffa100;
   --btn-2: #fc2933;
   --txt: #ffffff;
@@ -39,7 +40,7 @@
 /* Header */
 
 header {
-  background: rgb(25, 25, 25);
+  background: #191919;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -259,4 +260,41 @@ main {
   height: 29px;
   border-radius: 17.5px;
   cursor: pointer;
+}
+
+footer {
+  flex-direction: column;
+  background-color: var(--bg-nzappi);
+  gap: 60px;
+  padding: 60px 0 50px 0;
+  align-items: center;
+}
+
+footer ul {
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: var(--txt);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  gap: 30px;
+}
+
+footer ul a {
+  color: var(--txt);
+}
+
+footer h3 {
+  color: var(--txt);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+}
+
+footer span {
+  font-weight: 800;
 }
