@@ -60,7 +60,6 @@ header {
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  /* padding: 0 60px; */
   margin: 0 60px;
 }
 
@@ -84,9 +83,23 @@ header {
   gap: 35px;
 }
 
+.navbar-list li span {
+  color: transparent;
+}
+
+.navbar-list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar a {
   color: var(--text-white);
   font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 131.02%;
 }
 
 main {
