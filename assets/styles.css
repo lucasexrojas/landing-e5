@@ -165,6 +165,101 @@ main {
   justify-content: center;
 }
 
+/* recomendados */
+
+#recomendados{
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#recomendados h2{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.83px;
+  color: var(--text-white);
+  align-self: flex-start;
+}
+
+.recomendados-conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  }
+
+.recomendados-cards{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 15px;
+  width: 347px;
+  height: 103px;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 25px 0px 90px;  
+  background: var(--bg-primary);
+  box-shadow: 0px 0px 50px var(--bg-shadow);
+}
+.recomendadoscardinfo{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.recomendadoscardinfo h3 {
+  color: var(--text-white);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 131.02%;
+}
+.recomendadoscardinfo p{
+  color: var(--txt);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.recomendadoscardinfo span {
+    font-size: 19px;
+    font-weight: 700;    
+    background: var(--btns);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; 
+}
+
+.reco-btn-add{
+  color: var(--txt);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  background: var(--btns);
+  border: none;
+  width: 85px;
+  height: 29px;
+  border-radius: 17.5px;
+  cursor: pointer;
+}
+
+/* mostpopular */
+
 #mostpopular {
   display: flex;
   flex-direction: column;

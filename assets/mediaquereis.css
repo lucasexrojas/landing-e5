@@ -18,6 +18,21 @@
     display: none;
   }
 
+  #recomendados h2 {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recomendados-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #mostpopular h2 {
     display: flex;
     justify-content: center;
