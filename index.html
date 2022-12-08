@@ -18,25 +18,27 @@
   <body>
     <!-- Inicio del header -->
     <header>
-      <img src="./assets/img/navbar/logo1.svg" alt="logo" class="logo" />
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li>
-            <a href="#"
-              ><img src="./assets/img/navbar/Home.svg" alt="Home" />Home</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./assets/img/navbar/Icon-Cart.png" alt="cart-icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./assets/img/navbar/user.png" alt="user"
-            /></a>
-          </li>
-        </ul>
+      <nav class="nav-container">
+        <img src="./assets/img/navbar/logo1.svg" alt="logo" class="logo" />
+        <div class="navbar">
+          <ul class="navbar-list">
+            <li>
+              <a href="#"
+                ><img src="./assets/img/navbar/Home.svg" alt="Home" />Home</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/img/navbar/Icon-Cart.png" alt="cart-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/img/navbar/user.png" alt="user"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -49,55 +51,53 @@
           <p>Busca lo que quieras y Nucba te quedes sin comida.</p>
           <a href="#">VER MAS</a>
         </div>
-        <div class="hero-card">
-          <img
-            src="./assets/img/hero/image 34.png"
-            alt="img-pizza"
-            class="img-pizza2"
-          />
-          <img
-            src="./assets/img/hero/pizza 1.png"
-            alt="img-pizza"
-            class="img-pizza1"
-          />
-        </div>
+        <div class="hero-card"></div>
       </section>
       <!-- Inicio recomendados -->
       <section id="recomendados">
         <h2>Hoy te recomendamos</h2>
         <div class="recomendados-conteiner">
           <!-- Recomendado 1 -->
-            <div class="recomendados-cards">
-                <img src="./assets/img/recomendados/bennazianna.png" alt="Bennazianna">
-                <div class="recomendadoscardinfo">
-                    <h3 class="h3">Bennazianna</h3>
-                    <p>La más completa</p>
-                    <span> $ 3650</span>
-                </div>
-                <button class="reco-btn-add">Agregar</button>
+          <div class="recomendados-cards">
+            <img
+              src="./assets/img/recomendados/bennazianna.png"
+              alt="Bennazianna"
+            />
+            <div class="recomendadoscardinfo">
+              <h3 class="h3">Bennazianna</h3>
+              <p>La más completa</p>
+              <span> $ 3650</span>
             </div>
-            <!-- Recomendado 2 -->
-            <div class="recomendados-cards">
-                <img src="./assets/img/recomendados/tronco-pizza.png" alt="Tronco-Pizza">
-                <div class="recomendadoscardinfo">
-                    <h3 class="h3">Tronco-Pizza</h3>
-                    <p> Para todo el día</p>
-                    <span>$ 870</span>
-                </div>
-                <button class="reco-btn-add">Agregar</button>
+            <button class="reco-btn-add">Agregar</button>
+          </div>
+          <!-- Recomendado 2 -->
+          <div class="recomendados-cards">
+            <img
+              src="./assets/img/recomendados/tronco-pizza.png"
+              alt="Tronco-Pizza"
+            />
+            <div class="recomendadoscardinfo">
+              <h3 class="h3">Tronco-Pizza</h3>
+              <p>Para todo el día</p>
+              <span>$ 870</span>
             </div>
-            <!-- Recomendado 3 -->
-            <div class="recomendados-cards">
-                <img src="./assets/img/recomendados/papas-provenzal.png" alt="Papas Provenzal">
-                <div class="recomendadoscardinfo">
-                    <h3 class="h3">Papas | Provenzal</h3>
-                    <p>Van como piña</p>
-                    <span>$ 360</span>
-                </div>
-                <button class="reco-btn-add">Agregar</button>
+            <button class="reco-btn-add">Agregar</button>
+          </div>
+          <!-- Recomendado 3 -->
+          <div class="recomendados-cards">
+            <img
+              src="./assets/img/recomendados/papas-provenzal.png"
+              alt="Papas Provenzal"
+            />
+            <div class="recomendadoscardinfo">
+              <h3 class="h3">Papas | Provenzal</h3>
+              <p>Van como piña</p>
+              <span>$ 360</span>
             </div>
+            <button class="reco-btn-add">Agregar</button>
+          </div>
         </div>
-    </section>
+      </section>
       <!-- Fin recomendados -->
       <!-- Inicio most popular -->
 
@@ -106,62 +106,104 @@
         <h3>Categorías</h3>
         <div class="categories-cards-conteiner">
           <div class="info-cards-categories">
-          <div class="food1"> <img src="./assets/img/categories/image 34.png" alt="pizza grande">
+            <div class="food1">
+              <img
+                src="./assets/img/categories/image 34.png"
+                alt="pizza grande"
+              />
+            </div>
+            <p>Pizzas</p>
+            <div class="rectangle">
+              <img
+                src="./assets/img/categories/Rectangle 13.png"
+                alt="rectangulo13"
+              />
+            </div>
           </div>
-          <p>Pizzas</p>
-          <div class="rectangle"><img src="./assets/img/categories/Rectangle 13.png" alt="rectangulo13">
-          </div>
-        </div>
           <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/burger 1.png" alt="hamburguesa1"> 
+            <div class="food">
+              <img
+                src="./assets/img/categories/burger 1.png"
+                alt="hamburguesa1"
+              />
             </div>
             <p>Hamburguesas</p>
-            <div class="rectangle"> <img src="./assets/img/categories/Rectangle 12.png" alt="rectangulo12">
+            <div class="rectangle">
+              <img
+                src="./assets/img/categories/Rectangle 12.png"
+                alt="rectangulo12"
+              />
             </div>
           </div>
           <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/fries 2.png" alt="papas fritas"> 
+            <div class="food">
+              <img
+                src="./assets/img/categories/fries 2.png"
+                alt="papas fritas"
+              />
             </div>
             <p>Napapuki</p>
-            <div class="rectangle"> <img src="./assets/img/categories/Rectangle 13.png" alt="rectangulo13">
+            <div class="rectangle">
+              <img
+                src="./assets/img/categories/Rectangle 13.png"
+                alt="rectangulo13"
+              />
             </div>
           </div>
           <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/pizza 2.png" alt="pizza individual">
+            <div class="food">
+              <img
+                src="./assets/img/categories/pizza 2.png"
+                alt="pizza individual"
+              />
             </div>
             <p>Individuales</p>
             <div class="rectangle">
-              <img src="./assets/img/categories/Rectangle 12.png" alt="rectangulo12">
+              <img
+                src="./assets/img/categories/Rectangle 12.png"
+                alt="rectangulo12"
+              />
             </div>
           </div>
           <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/buritto 1.png" alt="burrito">
+            <div class="food">
+              <img src="./assets/img/categories/buritto 1.png" alt="burrito" />
             </div>
             <p>Wraps</p>
             <div class="rectangle">
-            <img src="./assets/img/categories/Rectangle 13.png" alt="rectangulo13">
-            </div>  
-          </div> 
-          <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/taco 1.png" alt="taco">
-            </div>
-            <p>Mexican Food</p>
-            <div class="rectangle">
-            <img src="./assets/img/categories/Rectangle 12.png" alt="rectangulo12">
+              <img
+                src="./assets/img/categories/Rectangle 13.png"
+                alt="rectangulo13"
+              />
             </div>
           </div>
           <div class="info-cards-categories">
-            <div class="food"> <img src="./assets/img/categories/float 1.png" alt="batidos">
+            <div class="food">
+              <img src="./assets/img/categories/taco 1.png" alt="taco" />
+            </div>
+            <p>Mexican Food</p>
+            <div class="rectangle">
+              <img
+                src="./assets/img/categories/Rectangle 12.png"
+                alt="rectangulo12"
+              />
+            </div>
+          </div>
+          <div class="info-cards-categories">
+            <div class="food">
+              <img src="./assets/img/categories/float 1.png" alt="batidos" />
             </div>
             <p>Batidukis</p>
             <div class="rectangle">
-            <img src="./assets/img/categories/Rectangle 13.png" alt="rectangulo13">
+              <img
+                src="./assets/img/categories/Rectangle 13.png"
+                alt="rectangulo13"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      
       <section id="mostpopular">
         <h2>Lo más popular</h2>
         <div class="mostpopulars-container flex">
