@@ -100,17 +100,6 @@ header {
   gap: 35px;
 }
 
-.navbar-list li span {
-  color: transparent;
-}
-
-/* .navbar-list li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s linear;
-} */
-
 .navbar a {
   display: flex;
   align-items: center;
@@ -119,7 +108,7 @@ header {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0px;
   line-height: 131.02%;
   transition: all 0.2s linear;
 }
@@ -127,8 +116,11 @@ header {
 .navbar a:hover {
   scale: 1.4;
   transition: all 0.2s linear;
+  font-size: 12px;
+  gap: 10px;
 }
 
+/* main */
 main {
   background: rgb(25, 25, 25);
   display: flex;
@@ -187,12 +179,6 @@ main {
   background-image: url(./img/hero/Hero-img.PNG);
   background-size: cover;
 }
-
-/* .hero-card img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .flex {
   display: flex;
@@ -320,7 +306,7 @@ main {
 }
 .categories-cards-conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 28px;
 }
