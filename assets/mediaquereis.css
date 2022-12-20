@@ -39,3 +39,57 @@
     align-items: center;
   }
 }
+
+@media (max-width: 600px){
+  .nav-container {
+    padding: 0 40px;
+  }
+
+  .nav-container i {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    height: calc(50vh - 70px);
+    background-color: #191919;
+    transform: translate(200%);
+    transition: all 0.7s linear;
+  }
+  
+  #toggle-menu:checked + .navbar {
+    transform: translate(0%);
+    transition: all 0.7s linear;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+  }
+
+  /* hero */
+  .hero-info {
+    padding: 30px 0px 0px 0px;
+  }
+
+  .hero-info h1,h2 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+
+  .hero-info a {
+    margin: 30px;
+  }
+
+  #recomendados {
+    width: 90%;
+  }
+
+  .recomendados-cards {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+  }
+}
