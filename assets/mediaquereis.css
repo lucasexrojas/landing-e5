@@ -59,19 +59,26 @@
   .navbar {
     position: absolute;
     top: 70px;
-    right: 0;
-    width: 100%;
+    right: 5%;
+    left: 5%;
+    max-width: 100%;
     height: calc(50vh - 70px);
-    background-color: #191919;
+    background-color: #191919f7;
     transform: translate(200%);
     transition: all 0.7s linear;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 2;
   }
   
-  #toggle-menu:checked + .navbar {
+  .toggle-menu:checked + .navbar {
     transform: translate(0%);
     transition: all 0.7s linear;
   }
 
+  #toggle-menu:checked + .glass {
+    display: block;
+  }
+  
   .navbar-list {
     flex-direction: column;
   }
@@ -101,6 +108,14 @@
   }
 
   .info-cards-categories {
-    width: 350px;
+    max-width: 80%;
+  }
+
+  .popular-box{
+    max-width: 80%;
+  }
+
+  .categories-cards-conteiner {
+    max-width: 100%;
   }
 }
