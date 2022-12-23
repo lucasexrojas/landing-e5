@@ -455,6 +455,13 @@ main {
   cursor: pointer;
 }
 
+.btn-basic:hover {
+  scale: 1.1;
+  transition: all 0.5s linear;
+  background: rgb(236,172,62);
+  background: linear-gradient(90deg, rgba(236,172,62,1) 5%, rgba(233,7,7,1) 61%);
+}
+
 footer {
   flex-direction: column;
   background-color: var(--bg-nzappi);

@@ -64,19 +64,20 @@
     max-width: 100%;
     height: calc(50vh - 70px);
     background-color: #191919f7;
-    transform: translate(200%);
+    transform: translateX(200%);
     transition: all 0.7s linear;
     border-radius: 0px 0px 10px 10px;
     z-index: 2;
   }
   
-  .toggle-menu:checked + .navbar {
+  #toggle-menu:checked + .navbar {
     transform: translate(0%);
     transition: all 0.7s linear;
   }
 
-  #toggle-menu:checked + .glass {
+  #toggle-menu:checked ~ .glass {
     display: block;
+    transition: all 0.7s linear;
   }
   
   .navbar-list {
