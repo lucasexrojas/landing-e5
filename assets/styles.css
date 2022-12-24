@@ -240,7 +240,18 @@ main {
   padding: 25px 0px 90px;
   background: var(--bg-primary);
   box-shadow: 0px 0px 50px var(--bg-shadow);
+  animation: move-left 2s;
 }
+
+@keyframes move-left {
+  0% {
+    transform: translateX(700px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .recomendadoscardinfo {
   display: flex;
   justify-content: flex-start;
@@ -335,7 +346,18 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  animation: move-right 2s;
 }
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-700px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .info-cards-categories p {
   color: var(--txt);
   font-size: 15px;
@@ -393,6 +415,16 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  animation: move-up 2s;
+}
+
+@keyframes move-up {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .popular-info {
