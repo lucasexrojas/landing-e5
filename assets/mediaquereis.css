@@ -64,7 +64,7 @@
     max-width: 100%;
     height: calc(50vh - 70px);
     background-color: #191919f7;
-    transform: translateX(200%);
+    transform: translateX(-200%);
     transition: all 0.7s linear;
     border-radius: 0px 0px 10px 10px;
     z-index: 2;
