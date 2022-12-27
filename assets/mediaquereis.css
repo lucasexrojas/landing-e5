@@ -52,6 +52,15 @@
 
   .cart-menu {
     width: 100vw;
+    align-items: center;
+  }
+
+  .cart-container {
+    max-width: 80%;
+  }
+
+  .cart-cd-info {
+    text-align: center;
   }
 
   .navbar {
