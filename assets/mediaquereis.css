@@ -63,6 +63,9 @@
     text-align: center;
   }
 
+   .divisor {
+    width: 90%;
+   }
   .navbar {
     position: absolute;
     top: 70px;
