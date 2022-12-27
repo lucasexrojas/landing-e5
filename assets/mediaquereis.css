@@ -14,6 +14,7 @@
     margin: 60px;
   }
 
+
   .hero-card {
     display: none;
   }
@@ -96,6 +97,10 @@
     margin: 30px;
   }
 
+  .hero-info p {
+    text-align: center;
+  }
+
   #recomendados {
     width: 90%;
   }
@@ -116,5 +121,21 @@
 
   .categories-cards-conteiner {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .recomendados-cards img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .recomendados-cards {
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  .recomendadoscardinfo {
+    align-items: center;
   }
 }
