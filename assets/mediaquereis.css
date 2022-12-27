@@ -59,7 +59,7 @@
     right: 5%;
     left: 5%;
     max-width: 100%;
-    height: calc(25vh - 70px);
+    height: calc(35vh - 70px);
     background-color: #191919f7;
     transform: translateX(-200%);
     transition: all 0.7s linear;
