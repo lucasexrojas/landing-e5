@@ -530,3 +530,40 @@ footer h3 {
 footer span {
   font-weight: 800;
 }
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  width: 50%;
+}
+.form-container  {
+  color: var(--text-white);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-container h1 {
+  padding: 15px;
+}
+.form-input {
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    size: 50%;
+
+  }
+.btn-submit {
+  text-align: center;
+  padding: 15px;
+  transition: all 0.5s linear;
+  background: rgb(236,172,62);
+  background: linear-gradient(90deg, rgba(236,172,62,1) 5%, rgba(233,7,7,1) 61%);
+  border-radius: 10px;
+  font-weight: 700;
+  width: 40%;
+  color: var(--text-white);
+}
+.btn-submmit a
