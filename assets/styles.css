@@ -794,15 +794,14 @@ footer span {
   text-align: center;
   padding: 15px;
   transition: all 0.5s linear;
-  background: rgb(236,172,62);
-  background: linear-gradient(90deg, rgba(236,172,62,1) 5%, rgba(233,7,7,1) 61%);
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #fb103d 101.53%);
   border-radius: 10px;
   font-weight: 700;
   width: 40%;
   color: var(--text-white);
 }
 .form-title span {
-  background: linear-gradient(90deg, rgba(236,172,62,1) 5%, rgba(233,7,7,1) 61%);
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #fb103d 101.53%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;

@@ -122,8 +122,21 @@
   .categories-cards-conteiner {
     max-width: 100%;
   }
+
+  .form-container {
+    align-items: center;
+  }
+
+  .form-title{
+    align-items: center;
+    text-align: center;
+  }
+
 }
 
+
+
+/* media 400px */
 @media (max-width: 420px) {
   .recomendados-cards img {
     width: 80px;
