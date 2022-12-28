@@ -36,6 +36,7 @@
   text-decoration: none;
   list-style-type: none;
   font-family: "Poppins", sans-serif;
+  /* background-color: #191919; */
   /* border: solid 1px blue; */
 }
 /* Header */
@@ -49,7 +50,7 @@ header {
   position: sticky;
   -webkit-position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 #toggle-menu,
@@ -123,17 +124,28 @@ header {
   gap: 10px;
 }
 
-/* Carrito */
+/* MENU CARRITO */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 #cart-toggle:checked + .cart-menu {
+  z-index: 5;
   display: flex;
-  transform: translate(0%);
-  transition: all 0.7s linear;
+  opacity: 1;
+  animation: fade 0.5s ease-in-out;
+  transition: all 0.3s linear;
 }
 
 #cart-toggle:checked ~ .glass {
   display: block;
-  transition: all 0.7s linear;
+  transition: all 0.3s linear;
 }
 
 .cart-menu {
@@ -143,8 +155,6 @@ header {
   width: 550px;
   height: calc(90vh - 70px);
   background-color: #191919f7;
-  transform: translateX(100%);
-  transition: all 0.7s linear;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
   display: flex;
@@ -154,7 +164,9 @@ header {
   padding: 10px 0px;
   color: var(--text-white);
   gap: 10px;
-  display: none;
+  transition: all 0.3s linear;
+  opacity: 0;
+  /* display: none; */
 }
 
 .cart-menu h2 {
@@ -766,6 +778,11 @@ footer span {
 }
 
 /*STYLES LOGIN-REGISTER*/
+
+.logo-l {
+  height: 56px;
+}
+
 .forms {
   display: flex;
   flex-direction: column;
@@ -773,7 +790,7 @@ footer span {
   padding: 25px;
   width: 50%;
 }
-.form-container  {
+.form-container {
   color: var(--text-white);
   padding: 25px;
   display: flex;
@@ -784,12 +801,11 @@ footer span {
   padding: 15px;
 }
 .form-input {
-    padding: 15px 35px;
-    border-radius: 10px;
-    border: none;
-    size: 50%;
-
-  }
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: none;
+  size: 50%;
+}
 .btn-submit {
   text-align: center;
   padding: 15px;

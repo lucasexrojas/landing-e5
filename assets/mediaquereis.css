@@ -14,7 +14,6 @@
     margin: 60px;
   }
 
-
   .hero-card {
     display: none;
   }
@@ -53,19 +52,28 @@
   .cart-menu {
     width: 100vw;
     align-items: center;
+    padding: 0 0 0 20px;
+    border: unset;
   }
 
   .cart-container {
-    max-width: 80%;
+    width: 95%;
   }
 
-  .cart-cd-info {
-    text-align: center;
+  .cart-card {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
-   .divisor {
+  .cart-img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .divisor {
     width: 90%;
-   }
+  }
   .navbar {
     position: absolute;
     top: 70px;
@@ -81,6 +89,7 @@
   }
 
   #toggle-menu:checked + .navbar {
+    z-index: 4;
     transform: translate(0%);
     transition: all 0.7s linear;
   }
@@ -139,17 +148,14 @@
     align-items: center;
   }
 
-  .form-title{
+  .form-title {
     align-items: center;
     text-align: center;
   }
-
 }
 
-
-
-/* media 400px */
-@media (max-width: 420px) {
+/* media 450px */
+@media (max-width: 450px) {
   .recomendados-cards img {
     width: 80px;
     height: 80px;
@@ -162,5 +168,17 @@
 
   .recomendadoscardinfo {
     align-items: center;
+  }
+
+  .cart-img {
+    display: none;
+  }
+
+  .cart-subtotal {
+    gap: 50px;
+  }
+
+  .hero-info {
+    text-align: center;
   }
 }
