@@ -144,8 +144,21 @@
     max-width: 100%;
   }
 
+  .form {
+    width: 100vw;
+  }
+
   .form-container {
     align-items: center;
+    width: 90%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .btn-submit {
+    width: auto;
   }
 
   .form-title {
